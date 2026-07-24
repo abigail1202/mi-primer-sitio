@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(244, 116, 4);
+}
+h1 { 
+    color: rgb(87, 33, 0);
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #333333;
+}
+main {
+    padding: 20px;
+    border: 2px solid rgb(68, 26, 0);
+    margin: 20px;
+}
