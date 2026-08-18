@@ -23,3 +23,19 @@ form {
     gap: 10px;
     align-items: center;
 }
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+.galeria img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.descripcion {
+    display: none;
+}
+.platillo:hover .descripcion {
+    display: block;
+}
